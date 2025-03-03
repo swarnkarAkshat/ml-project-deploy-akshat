@@ -11,7 +11,7 @@ row2 = st.columns(3)
 row3 = st.columns(3)
 row4 = st.columns(3)
 
-# Assign inputs to the first row with default values
+# Assign inputs to the first check row with default values
 with row1[0]:
     age = st.number_input('Age', min_value=18, step=1, max_value=100, value=28)
 with row1[1]:
